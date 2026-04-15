@@ -1,0 +1,27 @@
+{
+  "include": ["app"],
+  "exclude": ["**/__pycache__", "logs", "*.pyc", ".venv"],
+
+  "pythonVersion": "3.13",
+  "typeCheckingMode": "basic",
+
+  "useLibraryCodeForTypes": true,
+  "reportMissingImports": true,
+  "reportMissingTypeStubs": false,
+
+  "reportImportCycles": true,
+  "reportDuplicateImport": true,
+
+  "reportOptionalSubscript": "warning",
+  "reportOptionalMemberAccess": "warning",
+
+  "reportUnboundVariable": true,
+  "reportUndefinedVariable": true,
+
+  "reportIncompatibleMethodOverride": true,
+  "reportIncompatibleVariableOverride": true,
+
+  "reportUnknownParameterType": "warning",
+  "reportUnknownVariableType": "warning",
+  "reportUnknownMemberType": "warning"
+}

@@ -1,0 +1,22 @@
+{
+    // Python 설정
+    "python.languageServer": "None",
+
+    "[python]": {
+        "editor.defaultFormatter": "charliermarsh.ruff",
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.codeActionsOnSave": {
+            "source.fixAll": "explicit",
+            "source.organizeImports": "explicit"
+        }
+    },
+
+    // Ruff 확장 설정
+    "ruff.nativeServer": true,
+    "ruff.organizeImports": true,
+
+    // 파일 저장 시 trailing whitespace 제거
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true
+}

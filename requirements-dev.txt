@@ -1,0 +1,10 @@
+# Development dependencies
+-r requirements.txt
+
+# Code formatting & linting
+black==24.10.0
+ruff==0.8.2
+pyright==1.1.390
+
+# Pre-commit hooks
+pre-commit==4.0.1
